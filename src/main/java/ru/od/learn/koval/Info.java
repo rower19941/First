@@ -13,4 +13,7 @@ public final class Info {
     public  void setValue(double newValue){
         value = newValue;
     }
+    public void getElement(){
+        System.out.println(hour + "***" + value);
+    }
 }
